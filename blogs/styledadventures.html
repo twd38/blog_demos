@@ -11,6 +11,27 @@
 		var template_path = 'https://styledadventures.com/wp-content/themes/styled-adventures';
 	</script>
 
+<!-- widgetic -->
+<script>(function() {
+	function asyncLoad() {
+		var urls = ["https:\/\/www.ndnapps.com\/ndnapps\/easy-faqs\/js\/frontend\/app.20180905.js?shop=sunday-presets.myshopify.com","https:\/\/widgetic.com\/sdk\/sdk.js?shop=sunday-presets.myshopify.com","https:\/\/dfjp7gc2z6ooe.cloudfront.net\/assets\/sky_pilot.js?shop=sunday-presets.myshopify.com"];
+		for (var i = 0; i < urls.length; i++) {
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = urls[i];
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		}
+	};
+	if(window.attachEvent) {
+		window.attachEvent('onload', asyncLoad);
+	} else {
+		window.addEventListener('load', asyncLoad, false);
+	}
+})();</script>
+
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -177,19 +198,321 @@ img.emoji {
 			
 <article id="post-7630" class="post-7630 page type-page status-publish hentry">
 	<header class="entry-header container-lrg">
-		<h1 class="entry-title">COUPON CODES</h1>	</header><!-- .entry-header -->
+		<h1 class="entry-title">Presets</h1>	</header><!-- .entry-header -->
 
 	<div class="entry-content container-lrg">
-		<p style="text-align: center;">CURRENT COUPON CODES:</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><a href="https://rstyle.me/+NmKbl7jZ--ZF6gWGLXTGzg" target="_blank" rel="noopener">TULA: LAURAB20 (20% OFF)</a></p>
-<p style="text-align: center;"><a href="https://www.navyhaircare.com/collections/all?sort_by=created-ascending" target="_blank" rel="noopener">NAVY: LAURA (30%OFF)</a></p>
-<p style="text-align: center;"><a href="http://bit.ly/2zkmR1D" target="_blank" rel="noopener">LOOPY: LAURA10 (10%OFF)</a></p>
-<p style="text-align: center;"><a href="https://www.homechef.com/our-menu" target="_blank" rel="noopener">Home Chef: LAURA80 ( 80$ off 4 boxes)</a></p>
-<p style="text-align: center;"><a href="https://www.noboringflooring.com/products/?pType=13&amp;styleID=231&amp;prm=347712" target="_blank" rel="noopener">Floors: LAURA5 (5% off) </a></p>
-<p style="text-align: center;"><a href="https://allswellhome.com/collections/mattresses/products/supreme-mattress" target="_blank" rel="noopener">Allswell: LAURA10 ( 10% off)</a></p>
-<p style="text-align: center;"><a href="https://rstyle.me/+0iNODEx3jgdd7vfdUTsw1A" target="_blank" rel="noopener">Styled Collection: LAURA20 (20% off) </a></p>
-<p>&nbsp;</p>
+
+		<!-- Shopify -->
+		<div id='product-component-1594804501844' style="padding-top: 40px;"></div>
+		<script type="text/javascript">
+		/*<![CDATA[*/
+		(function () {
+			var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+			if (window.ShopifyBuy) {
+				if (window.ShopifyBuy.UI) {
+					ShopifyBuyInit();
+				} else {
+					loadScript();
+				}
+			} else {
+				loadScript();
+			}
+			function loadScript() {
+				var script = document.createElement('script');
+				script.async = true;
+				script.src = scriptURL;
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+				script.onload = ShopifyBuyInit;
+			}
+			function ShopifyBuyInit() {
+				var client = ShopifyBuy.buildClient({
+					domain: 'sunday-presets.myshopify.com',
+					storefrontAccessToken: 'a18dc1b1fd99ca3fb1a81cadad55d1bd',
+				});
+				ShopifyBuy.UI.onReady(client).then(function (ui) {
+					ui.createComponent('product', {
+						id: '4997912625211',
+						node: document.getElementById('product-component-1594804501844'),
+						moneyFormat: '%24%7B%7Bamount%7D%7D',
+						options: {
+			"product": {
+				"styles": {
+					"product": {
+						"@media (min-width: 601px)": {
+							"max-width": "100%",
+							"margin-left": "0",
+							"margin-bottom": "50px"
+						},
+						"text-align": "left"
+					},
+					"title": {
+						"font-family": "Raleway, sans-serif",
+						"font-weight": "normal",
+						"font-size": "26px",
+						"color": "#000000"
+					},
+					"button": {
+						"font-family": "Raleway, sans-serif",
+						"font-size": "14px",
+						"padding-top": "15px",
+						"padding-bottom": "15px",
+						"color": "#000000",
+						":hover": {
+							"color": "#000000",
+							"background-color": "#decfc8"
+						},
+						"background-color": "#f7e6de",
+						":focus": {
+							"background-color": "#decfc8"
+						},
+						"border-radius": "0px",
+						"padding-left": "60px",
+						"padding-right": "60px"
+					},
+					"quantityInput": {
+						"font-size": "14px",
+						"padding-top": "15px",
+						"padding-bottom": "15px"
+					},
+					"price": {
+						"font-family": "Raleway, sans-serif",
+						"font-size": "20px",
+						"color": "#000000"
+					},
+					"compareAt": {
+						"font-family": "Raleway, sans-serif",
+						"font-size": "17px",
+						"color": "#000000"
+					},
+					"unitPrice": {
+						"font-family": "Raleway, sans-serif",
+						"font-size": "17px",
+						"color": "#000000"
+					},
+					"description": {
+						"font-family": "Raleway, sans-serif",
+						"color": "#000000"
+					}
+				},
+				"layout": "horizontal",
+				"contents": {
+					"img": false,
+					"imgWithCarousel": true,
+					"button": false,
+					"buttonWithQuantity": true,
+					"description": true
+				},
+				"width": "100%",
+				"googleFonts": [
+					"Raleway"
+				]
+			},
+			"productSet": {
+				"styles": {
+					"products": {
+						"@media (min-width: 601px)": {
+							"margin-left": "-20px"
+						}
+					}
+				}
+			},
+			"modalProduct": {
+				"contents": {
+					"img": false,
+					"imgWithCarousel": true,
+					"button": false,
+					"buttonWithQuantity": true
+				},
+				"styles": {
+					"product": {
+						"@media (min-width: 601px)": {
+							"max-width": "100%",
+							"margin-left": "0px",
+							"margin-bottom": "0px"
+						}
+					},
+					"button": {
+						"font-family": "Raleway, sans-serif",
+						"font-size": "14px",
+						"padding-top": "15px",
+						"padding-bottom": "15px",
+						"color": "#000000",
+						":hover": {
+							"color": "#000000",
+							"background-color": "#decfc8"
+						},
+						"background-color": "#f7e6de",
+						":focus": {
+							"background-color": "#decfc8"
+						},
+						"border-radius": "0px",
+						"padding-left": "60px",
+						"padding-right": "60px"
+					},
+					"quantityInput": {
+						"font-size": "14px",
+						"padding-top": "15px",
+						"padding-bottom": "15px"
+					}
+				},
+				"googleFonts": [
+					"Raleway"
+				],
+				"text": {
+					"button": "Add to cart"
+				}
+			},
+			"cart": {
+				"styles": {
+					"button": {
+						"font-family": "Raleway, sans-serif",
+						"font-size": "14px",
+						"padding-top": "15px",
+						"padding-bottom": "15px",
+						"color": "#000000",
+						":hover": {
+							"color": "#000000",
+							"background-color": "#decfc8"
+						},
+						"background-color": "#f7e6de",
+						":focus": {
+							"background-color": "#decfc8"
+						},
+						"border-radius": "0px"
+					},
+					"title": {
+						"color": "#2b2b2b"
+					},
+					"header": {
+						"color": "#2b2b2b"
+					},
+					"lineItems": {
+						"color": "#2b2b2b"
+					},
+					"subtotalText": {
+						"color": "#2b2b2b"
+					},
+					"subtotal": {
+						"color": "#2b2b2b"
+					},
+					"notice": {
+						"color": "#2b2b2b"
+					},
+					"currency": {
+						"color": "#2b2b2b"
+					},
+					"close": {
+						"color": "#2b2b2b",
+						":hover": {
+							"color": "#2b2b2b"
+						}
+					},
+					"empty": {
+						"color": "#2b2b2b"
+					},
+					"noteDescription": {
+						"color": "#2b2b2b"
+					},
+					"discountText": {
+						"color": "#2b2b2b"
+					},
+					"discountIcon": {
+						"fill": "#2b2b2b"
+					},
+					"discountAmount": {
+						"color": "#2b2b2b"
+					}
+				},
+				"text": {
+					"total": "Subtotal",
+					"button": "Checkout"
+				},
+				"popup": false,
+				"googleFonts": [
+					"Raleway"
+				]
+			},
+			"toggle": {
+				"styles": {
+					"toggle": {
+						"font-family": "Raleway, sans-serif",
+						"background-color": "#f7e6de",
+						":hover": {
+							"background-color": "#decfc8"
+						},
+						":focus": {
+							"background-color": "#decfc8"
+						}
+					},
+					"count": {
+						"font-size": "14px",
+						"color": "#000000",
+						":hover": {
+							"color": "#000000"
+						}
+					},
+					"iconPath": {
+						"fill": "#000000"
+					}
+				},
+				"googleFonts": [
+					"Raleway"
+				]
+			},
+			"lineItem": {
+				"styles": {
+					"variantTitle": {
+						"color": "#2b2b2b"
+					},
+					"title": {
+						"color": "#2b2b2b"
+					},
+					"price": {
+						"color": "#2b2b2b"
+					},
+					"fullPrice": {
+						"color": "#2b2b2b"
+					},
+					"discount": {
+						"color": "#2b2b2b"
+					},
+					"discountIcon": {
+						"fill": "#2b2b2b"
+					},
+					"quantity": {
+						"color": "#2b2b2b"
+					},
+					"quantityIncrement": {
+						"color": "#2b2b2b",
+						"border-color": "#2b2b2b"
+					},
+					"quantityDecrement": {
+						"color": "#2b2b2b",
+						"border-color": "#2b2b2b"
+					},
+					"quantityInput": {
+						"color": "#2b2b2b",
+						"border-color": "#2b2b2b"
+					}
+				}
+			}
+		},
+					});
+				});
+			}
+		})();
+		/*]]>*/
+
+				
+		</script>
+</div>
+<widgetic-embed id="5f07e9a0ecb2a1165e8b4567" resize="fill-width" width="510" height="583" autoscale="on" adaptive="414"></widgetic-embed>
+<br>
+<widgetic-embed id="5f07eb4decb2a1f25e8b4567" resize="fill" width="510" height="583" autoscale="on" adaptive="414"></widgetic-embed>
+
+		<!-- Shopify -->
+
+
 	</div><!-- .entry-content -->
 
 	</article><!-- #post-7630 -->
